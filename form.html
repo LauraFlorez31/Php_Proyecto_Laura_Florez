@@ -1,0 +1,42 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title> Playstation Registrar Compra </title>
+        </head>
+
+    <body>
+
+        <strong><h1> PlayStation Store </h1></strong>
+        <p>Grandes descuentos, colecciones cuidadas y baratas de temporada en exitos de PS5, PS4 y PS VR, todo en el mismo lugar.</p>
+        <!--Suma de los productos-->
+        <form action="Playphp.php" method= "POST"><br>
+            <fieldset>
+            <legend> Suma de los productos</legend>
+
+            <label>Ingrese el Valor del Primer Producto: </label>
+            <input type="text" name= "Primer_Numero"><br>
+            <p> </p>
+            <label>Ingrese el Valor del Segundo Producto: </label>
+            <input type="text" name= "Segundo_Numero"><br>
+            <input type="submit" name= "Enviar" value= "Resultado" ><br>
+        </fieldset>
+        </form>
+        <!--Formulario-->
+        <form action="Playphp.php" method= "POST">
+            <fieldset>
+                <legend> Registra tu compra </legend>
+                <p><label>Registre su compra para asi tener un seguimiento de estas</label></p>
+            <p> ID: <input type="text" name="ID" /></p>
+            <p> Contrasena: <input type="text" name="Contraseña" /></p>
+            <p> Correo: <input type="text" name="Correo" /></p>
+            <p> Compra: <input type="text" name="Compra" /></p>
+            <p> Valor: <input type="text" name="Valor" /></p>
+            <p> Metodo_Pago <input type="text" name="Metodo_Pago" /></p>
+
+            <p><input type="submit" value="Enviar" /></p>
+            </fieldset>
+        </form>
+
+    </body>
+
+</html>
